@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now - SA Flare</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>SA FLARE</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="order.html" class="nav-link active">Order</a></li>
+                <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+            </ul>
+            <div class="nav-right">
+                <div class="social-icons">
+                    <a href="https://web.facebook.com/profile.php?id=61578832953435" target="_blank" rel="noopener">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/saflareadsmarketing/" target="_blank" rel="noopener">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sa-flare-ads-marketing-418862377/" target="_blank" rel="noopener">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@saflare" target="_blank" rel="noopener">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@muhammad.saad0748" target="_blank" rel="noopener">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
+                <a href="order.html" class="btn-primary">Order Now</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Order Your Ads</h1>
+            <p>Get started with high-converting ads that boost your sales by 6X</p>
+        </div>
+    </section>
+
+    <!-- Order Process -->
+    <section class="order-process">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-icon">1</div>
+                    <h3>Fill Order Form</h3>
+                    <p>Provide your business details and advertising requirements</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-icon">2</div>
+                    <h3>Make Payment</h3>
+                    <p>Choose from our secure payment options</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-icon">3</div>
+                    <h3>Get Your Ads</h3>
+                    <p>Receive high-quality ads within 24-48 hours</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Form Section -->
+    <section class="order-form-section">
+        <div class="container">
+            <div class="order-content">
+                <div class="order-form-container">
+                    <h2>Order Form</h2>
+                    <form class="order-form" action="mailto:saflareadsmarketing138@gmail.com" method="post" enctype="text/plain">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="business">Business Name</label>
+                            <input type="text" id="business" name="business">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service Required *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="social-media-ads">Social Media Ads ($50)</option>
+                                <option value="video-ads">Video Ads ($100)</option>
+                                <option value="premium-package">Premium Package ($300)</option>
+                                <option value="custom">Custom Package</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Platforms (Select all that apply)</label>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="platforms" value="facebook"> <span class="checkbox-label">Facebook</span></label>
+                                <label><input type="checkbox" name="platforms" value="instagram"> <span class="checkbox-label">Instagram</span></label>
+                                <label><input type="checkbox" name="platforms" value="tiktok"> <span class="checkbox-label">TikTok</span></label>
+                                <label><input type="checkbox" name="platforms" value="linkedin"> <span class="checkbox-label">LinkedIn</span></label>
+                                <label><input type="checkbox" name="platforms" value="youtube"> <span class="checkbox-label">YouTube</span></label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="budget">Monthly Budget</label>
+                            <select id="budget" name="budget">
+                                <option value="">Select budget range</option>
+                                <option value="under-500">Under $500</option>
+                                <option value="500-1000">$500 - $1,000</option>
+                                <option value="1000-5000">$1,000 - $5,000</option>
+                                <option value="5000-plus">$5,000+</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="description">Project Description *</label>
+                            <textarea id="description" name="description" rows="5" placeholder="Describe your business, target audience, and advertising goals..." required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label><input type="checkbox" name="rush" value="yes"> Rush Order (48 hours) - Additional $50</label>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary">Submit Order</button>
+                    </form>
+                </div>
+                
+                <div class="order-sidebar">
+                    <div class="contact-card">
+                        <h3>Fastest Way to Reach Us</h3>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>WhatsApp</h4>
+                                <a href="https://wa.me/923044444138">+92 3044444138</a>
+                                <p>Instant responses</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <a href="mailto:saflareadsmarketing138@gmail.com">saflareadsmarketing138@gmail.com</a>
+                                <p>Detailed inquiries</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Call</h4>
+                                <a href="tel:+923044444138">+92 3044444138</a>
+                                <p>Direct consultation</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="rush-order-info">
+                        <h4>Rush Orders</h4>
+                        <p>Need your ads urgently? We offer 48-hour rush delivery for an additional $50.</p>
+                    </div>
+                    
+                    <div class="office-hours">
+                        <h4>Office Hours</h4>
+                        <p>Monday - Friday: 9 AM - 6 PM (PKT)<br>
+                        Saturday: 10 AM - 4 PM (PKT)<br>
+                        Sunday: Closed</p>
+                    </div>
+                    
+                    <div class="guarantees">
+                        <h4>Our Guarantees</h4>
+                        <ul>
+                            <li>✓ 6X Sales Increase</li>
+                            <li>✓ 100% Satisfaction</li>
+                            <li>✓ Free Revisions</li>
+                            <li>✓ 24/7 Support</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>SA Flare</h3>
+                    <p>Elevating brands with powerful ads since day one.</p>
+                    <div class="social-links">
+                        <a href="https://web.facebook.com/profile.php?id=61578832953435" target="_blank" rel="noopener">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/saflareadsmarketing/" target="_blank" rel="noopener">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sa-flare-ads-marketing-418862377/" target="_blank" rel="noopener">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@saflare" target="_blank" rel="noopener">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@muhammad.saad0748" target="_blank" rel="noopener">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="order.html">Order</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+923044444138">+92 3044444138</a></p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:saflareadsmarketing138@gmail.com">saflareadsmarketing138@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SA Flare. All rights reserved. | Founded by M. Saad Ali</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
